@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    background:rgb(212, 22, 79);
+    margin: 0;
+    height: 50px;
+    padding: 10px;
+
+}
+nav{
+    background: rgb(28, 205, 218);
+}
+main{
+    background: rgb(176, 14, 216);
+    width:70%;
+    height:30px;
+    float:left;
+}
+section{
+    background: rgb(248, 170, 0);
+    width:30%;
+    height:30px;
+    float:left;
+}
+footer{
+    width: 100%;
+    background: rgb(45, 240, 45);
+    height:30px;
+    float: left;
+}
