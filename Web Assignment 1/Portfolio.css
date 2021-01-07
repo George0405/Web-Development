@@ -39,9 +39,42 @@ main{
     grid-area:main;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: "Image Text Image Text"
-                         "Text Image Text Image";
+    grid-template-rows: auto;
+    grid-template-areas: "Image1 Text2 Image3 Text4"
+                         "Text1 Image2 Text3 Image4";
     height: 40em;
+}
+.image1{
+    grid-area:Image;
+    background-color: black;
+}
+.image2{
+    grid-area:Image;
+    background-color: blueviolet;
+}
+.image3{
+    grid-area:Image;
+    background-color: coral;
+}
+.image4{
+    grid-area:Image;
+    background-color: darkgreen;
+}
+.text1{
+    grid-area:Image;
+    background-color: darkgreen;
+}
+.text2{
+    grid-area:Image;
+    background-color: darkgreen;
+}
+.text3{
+    grid-area:Image;
+    background-color: darkgreen;
+}
+.text4{
+    grid-area:Image;
+    background-color: darkgreen;
 }
 section{
     background: rgb(28, 205, 218);
