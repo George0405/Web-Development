@@ -30,7 +30,7 @@ nav ul {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     text-align:center; 
-}
+} 
 main{
     background: rgb(28, 205, 218);
     border-left:3px solid black;
