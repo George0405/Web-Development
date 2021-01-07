@@ -45,35 +45,35 @@ main{
     height: 40em;
 }
 .image1{
-    grid-area:Image;
+    grid-area:main;
     background-color: black;
 }
 .image2{
-    grid-area:Image;
+    grid-area:main;
     background-color: blueviolet;
 }
 .image3{
-    grid-area:Image;
+    grid-area:main;
     background-color: coral;
 }
 .image4{
-    grid-area:Image;
+    grid-area:main;
     background-color: darkgreen;
 }
 .text1{
-    grid-area:Image;
+    grid-area:main;
     background-color: darkgreen;
 }
 .text2{
-    grid-area:Image;
+    grid-area:main;
     background-color: darkgreen;
 }
 .text3{
-    grid-area:Image;
+    grid-area:main;
     background-color: darkgreen;
 }
 .text4{
-    grid-area:Image;
+    grid-area:main;
     background-color: darkgreen;
 }
 section{
