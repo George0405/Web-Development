@@ -37,11 +37,19 @@ main{
     border-right:3px solid black;
     border-bottom:3px solid black;
     grid-area:main;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "CV_header"
+                         "CV_body";
     height: 100em;
 }
 .header{
     text-align: center;
     grid-area:main;
+}
+.body{
+    grid-area: main;
 }
 section{
     background: rgb(28, 205, 218);
