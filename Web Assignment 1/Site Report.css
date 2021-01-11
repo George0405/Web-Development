@@ -37,7 +37,100 @@ main{
     border-right:3px solid black;
     border-bottom:3px solid black;
     grid-area:main;
-    height: 40em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "one Image1"
+                         "two Image2"
+                         "three Image3"
+                         "four Image4"
+                         "five Image5"
+                         "six Image6"
+                         "seven Image7"
+                         "eight Image8"
+                         "nine Image9"
+                         "ten Image10";
+    height: 150em;
+}
+.one{
+text-align: center;
+grid-area:main;
+}
+.image1{
+grid-area: main;
+background-color: black;
+}
+.two{
+    text-align: center;
+    grid-area:main;
+}
+.image2{
+grid-area: main;
+background-color: black;
+}
+.three{
+text-align: center;
+grid-area:main;
+}
+.image3{
+grid-area: main;
+background-color: black;
+}
+.four{
+text-align: center;
+grid-area:main;
+}
+.image4{
+grid-area: main;
+background-color: black;
+}
+.five{
+text-align: center;
+grid-area:main;
+}
+.image5{
+grid-area: main;
+background-color: black;
+}
+.six{
+text-align: center;
+grid-area:main;
+}
+.image6{
+grid-area: main;
+background-color: black;
+}
+.seven{
+text-align: center;
+grid-area:main;
+}
+.image7{
+grid-area: main;
+background-color: black;
+}
+.eight{
+text-align: center;
+grid-area:main;
+}
+.image8{
+grid-area: main;
+background-color: black;
+}
+.nine{
+text-align: center;
+grid-area:main;
+}
+.image9{
+grid-area: main;
+background-color: black;
+}
+.ten{
+text-align: center;
+grid-area:main;
+}
+.image10{
+grid-area: main;
+background-color: black;
 }
 section{
     background: rgb(28, 205, 218);
