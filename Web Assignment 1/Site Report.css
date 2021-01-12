@@ -52,6 +52,9 @@ main{
                          "ten Image10";
     height: 200em;
 }
+h2{
+    text-align: center;
+}
 .one{
 text-align: center;
 grid-area:main;
