@@ -38,11 +38,13 @@ main{
     border-bottom:3px solid black;
     grid-area:main;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
-    grid-template-areas: "Image1 Text2 Image3 Text4"
-                         "Text1 Image2 Text3 Image4";
-    height: 40em;
+    grid-template-areas: "Image1 Text2"
+                         "Text1 Image2"
+                         "Image3 Text4"
+                         "Text3 Image4";
+    height: 80em;
 }
 .image1{
     grid-area:main;
