@@ -4,7 +4,7 @@ body {
     grid-template-rows: auto;
     grid-template-areas: "h1 h1 h1"
                          "nav nav nav"
-                         "main main section"
+                         "main main main"
                          "footer footer footer";
 }
 h1{
@@ -134,12 +134,6 @@ grid-area:main;
 .image10{
 grid-area: main;
 background-color: black;
-}
-section{
-    background: rgb(28, 205, 218);
-    border-right:3px solid black;
-    border-bottom:3px solid black;
-    grid-area:section;
 }
 footer{
     background: rgb(28, 205, 218);

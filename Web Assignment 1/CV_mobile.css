@@ -42,7 +42,7 @@ main{
     grid-template-rows: auto;
     grid-template-areas: "CV_header"
                          "CV_body";
-    height: 200em;
+    height: 110em;
 }
 .header{
     text-align: center;
